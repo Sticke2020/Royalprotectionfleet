@@ -1,0 +1,90 @@
+
+
+img {
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    position: relative;
+}
+
+section {
+    display: grid;
+    position: relative;
+    border-right: 3px dashed black;
+    border-left: 3px dashed black;
+}
+section div {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
+section h3 {
+    padding-top: 5em;
+    padding-bottom: .5em;
+    text-align: center;
+    align-items: center;
+    font-size: 3vw;
+    font-style: italic;
+    text-shadow: 2px 1px 2px white;
+}
+section p {
+    padding-bottom: .25em;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 2px 1px 2px white ;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1600px) {
+    section h3 {
+        padding-top: 6em;
+    }
+}
+@media only screen and (max-width: 1368px) {
+    section h3 {
+        padding-top: 7em;
+        font-size: 3.3vw;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section h3 {
+        padding-top: 7.5em;
+        font-size: 3.5vw;
+    }
+    section p {
+    font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width: 780px) {
+    section h3 {
+        padding-top: 6em;
+        font-size: 4vw;
+    }
+    section p {
+    font-size: 3vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+}
+@media only screen and (max-width: 580px) {
+    section h3 {
+        padding-top: 5em;
+        font-size: 5vw;
+    }
+    section p {
+    font-size: 3.5vw;
+    }
+}
+@media only screen and (max-width: 470px) {
+    section h3 {
+        padding-top: 4em;
+        font-size: 6vw;
+    }
+    section p {
+    font-size: 4.5vw;
+    }
+}

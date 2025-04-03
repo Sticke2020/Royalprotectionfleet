@@ -1,0 +1,16 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    background: orangered ;
+    font-size: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

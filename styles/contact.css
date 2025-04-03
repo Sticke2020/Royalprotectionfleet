@@ -1,0 +1,67 @@
+
+
+form {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    padding-right: 2%;
+    margin-right: 2%;
+    margin-bottom: 2em;
+}
+
+label {
+    font-size: 140%;
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+input {
+    margin-bottom: .5em;
+    width: 150%;
+    height: 100%;
+}
+
+textarea {
+    width: 150%;
+    height: 150%;
+    resize: none;
+    margin-bottom: 1em;
+}
+
+button {
+    
+    width: 150%;
+    margin-top: 4em;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 780px) {
+    form {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 470px) {
+    form {
+        width: 60%;
+    }
+    input {
+        margin-bottom: .5em;
+        width: 120%;
+        margin-left: 3em;
+    }
+    label {
+        margin-left: 2em;
+        width: 150%;
+    }
+    textarea {
+        width: 120%;
+        margin-left: 3em;
+    }
+
+    button {
+        width: 120%;
+        margin-left: 2.6em;
+    }
+    
+}

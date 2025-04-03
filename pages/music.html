@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPF</title>
+    <link rel="icon" href="../images/rpf3.ico">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header_nav_footer.css">
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <link rel="stylesheet" href="../styles/music.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			  crossorigin="anonymous">
+	</script>
+	<script src="../js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+    <body>
+        <header>
+            <h1>Music</h1>
+        </header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/music.html">Music</a></li>
+            <li><a href="../pages/members.html">Members</a></li>
+            <li><a href="../pages/gigs.html">Gigs</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </nav>
+        <main>
+            <video src="../videos/Something_Is_Wrong.mp4" width="640" height="360" controls></video>
+            <h3>Something Is Wrong: By Royal Protection Fleet</h3>
+            <video src="../videos/Ride_The_Pines.mp4" width="640" height="360" controls></video>
+            <h3>Ride The Pines: By Royal Protection Fleet</h3>
+            <video src="../videos/Family.mp4" width="640" height="360" controls></video>
+            <h3>Family: By Royal Protection Fleet</h3>
+            <video src="../videos/Cant_Win.mp4" width="640" height="360" controls></video>
+            <h3>Cant Win: By Royal Protection Fleet</h3>
+        </main>
+        <footer>
+            <p>
+				Developer: Matthew Feagin - AW_FP
+			</p>
+			<p>
+				&copy; 2025 RPF
+			</p>
+		</footer>
+    </body>
+</html>

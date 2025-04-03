@@ -1,0 +1,18 @@
+
+
+main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: dashed black;
+}
+
+p {
+    font-size: 150%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: 600;
+}

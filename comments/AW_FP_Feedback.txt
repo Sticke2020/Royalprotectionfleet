@@ -1,0 +1,70 @@
+
+--------------------------------------------------
+FP 02
+--------------------------------------------------
+Time on this part  10 hours
+Total for the project 18.5 hours not including the work from FP 01
+
+Questions:
+Are you pleased with your progress so far?
+	If yes, why?
+
+	Yes I am Pleased with my work so far mostly. I make everything simple because doing the styling is not really my thing
+ 	and I work very slow so it takes me a long time to get very little done.
+
+	If no, why?
+Is there anything you need from me?
+
+No not as of right now.
+
+Feedback/Fixes:
+
+Rene: 
+	Matthew, for your gigs, add the name of the establishment to the location. If these are fictious locations, just make up names.
+	 If they are real places, explore an API to Google Maps when they are clicked on. If I recall, it's not hard, but do not spend a
+	 lot of time trying to figure it out. That and your "reimagine" can lead to scope creep. :)
+
+	On the homepage, on the small screen, there is enough distance between the edge and the words to make it comfortable looking. 
+	Not so much on the large screen. There, "Experience" and "Fleet!" go right to the edge.
+
+	It's the reverse for your nav. One the large screen that looks good, but on the small screen "Contact" is right against the edge. SlickNav?
+
+Fixes:  
+	Thank you Rene, I added SlickNav to my project and it seems to be working well for the most part. I fixed the issue with the paragraph
+	on my index page being too close to the edges. On my gigs page Since it is made up I did add some locations for the events which are
+	also made up places. I was able to fix the nav menue so that contact is no longer touching the edge of the screen. I added a page 
+	called thank_you so when someone submits information on the contact page they get directed to the thank you page. The heading on the 
+	page still reads Contact rather than thank you so that it would appear to the user that they never left the contact page. Also I 
+	added a favicon ico image for the tab.
+
+--------------------------------------------------
+FP 02
+--------------------------------------------------
+Time on this part  8.5 hours
+Total for the project 8.5 hours not including the work from FP 01
+
+Questions:
+Are you pleased with your progress so far?
+	If yes, why?
+
+	Yes I would say im pleased so far, Im off to a good start though Im already starting to reimagine the project
+	a different way.
+
+	If no, why?
+Is there anything you need from me?
+
+No not as of right now.
+
+Feedback/Fixes:
+Rene: 	Paste my feedback here
+Fixes:  Tell me how and where you made the fixes
+
+--------------------------------------------------
+FP 01
+--------------------------------------------------
+
+Matthew, great idea. I am a rock fan and look forward to seeing your finished project. Love the way you did your presentation. 40 hours is realistic, but you are correct, it could take longer.
+
+Feedback/Fixes:
+
+
