@@ -1,3 +1,8 @@
+header {
+    background-image: url('../images/rpf_header.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 
 main h2 {
     padding-top: 1em;

@@ -1,0 +1,37 @@
+header {
+    background-image: url('../images/rpf_header.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card {
+  display: inline-grid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60%;
+  margin-bottom: 2em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(5,5,5,5);
+}
+
+.txt {
+  padding: 2px 16px;
+}
