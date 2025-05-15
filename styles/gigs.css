@@ -27,17 +27,26 @@ section {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-radius: 20%;
+    background-image: url('../images/rpf1.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 section h3 {
     padding-top: 1em;
     padding-bottom: .5em;
     font-size: 150%;
+    color: yellow;
+    text-shadow: 2px 2px 5px purple;
+    -webkit-text-stroke: 1PX black;
 }
 section p {
     padding-bottom: .5em;
     padding-left: 5em;
-    font-size: 120%;
+    font-size: 140%;
     font-weight: 700;
+    color: rgb(252, 248, 248);
+    -webkit-text-stroke: 1PX black;
+    text-shadow: 2px 2px 5px purple;
 }
 
 /* Media Queries */

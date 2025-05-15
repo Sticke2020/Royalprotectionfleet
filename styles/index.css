@@ -10,8 +10,8 @@ img {
 section {
     display: grid;
     position: relative;
-    border-right: 3px dashed black;
-    border-left: 3px dashed black;
+    border-right: 6px ridge rgb(156, 148, 148);
+    border-left: 6px ridge rgb(156, 148, 148);
 }
 section div {
     display: grid;

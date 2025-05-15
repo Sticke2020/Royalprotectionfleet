@@ -35,7 +35,7 @@
             <li><a href="../pages/contact.html">Contact</a></li>
         </nav>
         <main>
-            <form action="../pages/thank_you.html">
+            <form action="https://formspree.io/f/mgvkprvo" method="post" id="contactForm">
                 <label for="email">Email:</label>
                 <input class="required" type="email" id="email" name="email" placeholder="email@email.com" required autofocus>
                 <label for="first_name">First Name:</label>
@@ -43,10 +43,13 @@
                 <label for="last_name">Last Name:</label>
                 <input class="required" type="text" id="last_name" name="last_name" placeholder="Doe" required>
                 <label for="phone">Phone:</label>
-                <input type="text" id="phone" name="phone">
+                <input type="text" id="phone" name="phone" placeholder="555-555-5555">
                 <label for="reason">Reason for Contact:</label>
-                <textarea class="required" name="reason" id="reason" required></textarea>
-                <button>Submit</button>
+                <textarea class="required" name="reason" id="reason" placeholder="Type here" required></textarea>
+                <span id="span_email"></span>
+                <span id="span_name"></span>
+                <span id="span_reason"></span>
+                <button id="process_information">Submit</button>
             </form>
         </main>
         <footer>
@@ -57,5 +60,6 @@
 				&copy; 2025 RPF
 			</p>
 		</footer>
+        <script src="../scripts/validate_form.js"></script>
     </body>
 </html>
