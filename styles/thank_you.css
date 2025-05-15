@@ -10,7 +10,7 @@ main {
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    border: dashed black;
+    border: dashed yellow;
 }
 
 p {
@@ -20,4 +20,6 @@ p {
     margin-top: 2em;
     margin-bottom: 2em;
     font-weight: 600;
+    color: yellow;
+    -webkit-text-stroke: 1PX black;
 }
