@@ -26,6 +26,7 @@ div {
   transition: 0.3s;
   width: 60%;
   margin-bottom: 2em;
+  background-color: orangered;
 }
 
 .card:hover {

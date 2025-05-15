@@ -6,7 +6,9 @@
 
 body {
     font-family:'Courier New', Courier, monospace, sans-serif;
-    background: orangered ;
+    background: orangered;
+    background-image: url("../images/flow.png") ;
+    background-position: center;
     font-size: 100%;
     max-width: 1280px;
     margin-left: auto;
